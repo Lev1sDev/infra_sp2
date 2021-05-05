@@ -16,5 +16,5 @@
 ### Привязать статические файлы:
 ```docker-compose exec web python manage.py collectstatic --no-input```
 
-### Заполнить базу начальными данными
+### Заполнить базу начальными данными:
 ```docker-compose exec web python manage.py loaddata fixtures.json```
